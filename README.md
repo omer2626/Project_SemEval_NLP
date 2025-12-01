@@ -28,3 +28,12 @@ Contextual Representation: The [CLS] token embedding is used as a holistic repre
 Classification Heads:
 Subtask A: A shallow binary classification head.
 Subtask B: A softmax classifier with 11 output neurons.
+
+**Setup Instructions**
+
+Install dependencies: pip install -r requirements.txt
+
+Download the dataset and place it in the data/ folder.
+link for dataset : https://www.kaggle.com/datasets/daniilor/semeval-2026-task13/
+
+Run the training script and prediction script, suggested to use colab notebook
